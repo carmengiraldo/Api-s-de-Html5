@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Práctica API Html5</title>
+  <link rel="stylessheet" href=https://scackpatch.bootstrapcdn.com/font-awesome/4.0.7/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="container-input">
+    <h1 class="title">Selecciona un archivo de video</h1>
+    <input type="file" name="video-file" id="video-file" />
+  </header>
+
+  <div class="message">El video no se ha podido reproducir</div>
+  <main class="main">
+    <p class="load-text" id="loading"></p>
+    <section class="container-video hidden" id="section">
+
+      <video id="video" width="620">
+        El navegador no soporta vídeos. Descarga el vídeo <a href="video.mp4">aquí</a>.
+      </video>
+      <div class="btns-control"></div>
+      <div class="btns-control">
+        <button id="reproducir" class="btn"><img src="Img/play.png" /></button>
+        <button id="pausa" class="btn"><img src="Img/pause.png" /></button>
+        <button id="subir-volumen" class="btn"><img src="Img/loud.png" /></button>
+        <button id="bajar-volumen" class="btn"><img src="Img/low.png" /></button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

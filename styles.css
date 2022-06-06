@@ -1,0 +1,72 @@
+body {
+  font-family: roboto;
+  margin: 0 10%;
+  background-color: #bccdde;
+  margin: 0 10%;
+
+}
+.main {
+  background-color:#f1f6f7;
+  padding: 12px;
+  text-align: center;
+  display: none;
+}
+.visible {
+  display: block !important;
+}
+
+.message {
+  margin: 24px auto;
+  display: none;
+  color: red;
+  border: 2px solid red;
+  border-radius: 4px;
+  padding: 8px;
+  width: 500px;
+  text-align: center;
+}
+
+.container-input {
+  padding:12px;
+  text-align: center;
+  width:center;
+}
+
+.main {
+  background-color:#f1f6f7;
+  padding: 12px;
+  text-align: center;
+
+}
+.container-input {
+  padding: 12px;
+  text-align:center;
+  display: block;
+  height:-60px;    
+}
+.btn {
+  margin:0;
+  padding: 8px;
+  display:inline-block;
+  font-size:16px;
+  margin: 8px;
+  padding: 12px 0px;
+  text-align:center;
+  width:80px;
+  text-decoration:none;
+  font-style: normal;
+  font-family:roboto;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.hidden {
+  display: none;
+  
+}
+
